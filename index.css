@@ -1,0 +1,31 @@
+.body{
+    border: 2px solid green;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .calculator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 2rem 30em;
+    background-color: lightgray;
+    border-radius: 4px;
+  }
+  .input {
+    width: 6rem;
+    height: 2rem;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+  }
+  .submit {
+    height: 2rem;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+  }
